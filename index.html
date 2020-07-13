@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Cafe Nassau</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css" media="screen" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Playball' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style-portfolio.css">
+        <link rel="stylesheet" href="css/picto-foundry-food.css" />
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link rel="icon" href="favicon-1.ico" type="image/x-icon">
+        <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+      <!--   alertas-->
+        <script src="../../dist/sweetalert.min.js"></script> 
+        <script src="../../dist/sweetalert-dev.js"></script>
+           <link rel="stylesheet" href="../../dist/sweetalert.css">
+
+
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="row">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Menu</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Cafe Nassau</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav main-nav  clear navbar-right ">
+                            <li><a class="navactive color_animation" href="#top">INICIO</a></li>
+                            <li><a class="color_animation" href="#story">HISTORIA</a></li>
+                            <li><a class="color_animation" href="#pricing">MENNU</a></li>
+                            <li><a class="color_animation" href="#bread">COMIDA RAPIDA</a></li>
+                            <li><a class="color_animation" href="#featured">COMIDA A LA CARTA</a></li>
+                            <li><a class="color_animation" href="#contact">CONTACTO</a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div>
+            </div><!-- /.container-fluid -->
+        </nav>
+         
+        <div id="top" class="starter_container bg">
+
+            <div class="follow_container">
+                <div class="col-md-6 col-md-offset-3">
+                    <span> <img src="images/logo.png" width="50%" alt=""> </span>
+                   
+                    <h2 class="white second-title">" Me gusta el cafe de tus ojos... </p>...pero mas el Cafe de Nassau " </h2></p><div class="fb-like"></div>
+                    <hr>
+                </div>
+            </div>
+        </div>
+
+        <!-- ============ About Us ============= -->
+
+        <section id="story" class="description_content">
+            <div class="text-content container">
+                <div class="col-md-6">
+                    <h1>Sobre Nosotros</h1>
+                    <div class="fa fa-cutlery fa-2x"></div>
+                    <p class="desc-text">Desde el año 2015 comenzamos nuestra historia, no hay mucho que contar por ahora, pero estamos seguros que nos espera no menos que la grandeza, para NASSAU la parte importante de su historia eres Tu.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="img-section">
+                       <img src="images/kabob1.jpg" width="48%"  >
+                      <img src="images/kabob.jpg" width="48%"  >
+                       <div class="img-section-space"></div>
+                       <img src="images/kabob3.jpg" width="48%"  >
+                      <img src="images/kabob2.jpg" width="48%"  >
+                   </div>
+                </div>
+            </div>
+        </section>
+
+
+       <!-- ============ Pricing  ============= -->
+
+
+        <section id ="pricing" class="description_content">
+             <div class="pricing background_content">
+                <h1>En una sola palabra:<span>Delicioso</span></h1>
+
+             </div>
+            <div class="text-content container"> 
+                <div class="container">
+                    <div class="row">
+                        <div id="w">
+                            <ul id="filter-list" class="clearfix">
+                                <li class="filter" data-filter="all">TODO</li>
+                                <li class="filter" data-filter="CB">CANGREBURGERS</li>
+                                <li class="filter" data-filter="ensalada">ENSALADAS</li>
+                                <li class="filter" data-filter="desayunos">DESAYUNOS</li>
+                                <li class="filter" data-filter="comida">COMIDA</li>
+                                 <li class="filter" data-filter="aguas">BEBIDAS FRIAS</li>
+                                 <li class="filter" data-filter="cafes">BEBIDAS CALIENTES</li>
+                            </ul><!-- @end #filter-list -->    
+                            <ul id="portfolio">
+                                <li class="item CB"><img src="images/hks.jpg"  onclick='swal({   title: "CANGREBURGERS",   text: "Hanny (Pollo) || Ka-Di (Bistec) || Tradicional (Res).",   imageUrl: "images/KB.png" });' alt="Food" >
+                                    <h2 class="white">$35 </h2>
+                                </li>
+
+                                <li class="item CB"><img src="images/hka.jpg" onclick='swal({   title: "CANGREBURGERS",   text: "Arrachera.",   imageUrl: "images/KB.png" });' alt="Food" >
+                                    <h2 class="white">$60</h2>
+                                </li>
+                                <li class="item CB"><img src="images/hkn.jpg" onclick='swal({   title: "CANGREBURGERS",   text: "Nassau (Bistec, Pollo, Arrachera).",   imageUrl: "images/KB.png" });' alt="Food" >
+                                    <h2 class="white">$70</h2>
+                                </li>
+                                <li class="item ensalada"><img src="images/hen.jpg"  onclick='swal({   title: "ENSALADAS",   text: "Nassau: (Manzana, Lechuga, Queso Panela, Vinagre de Arándano, Pasas Etc...).",   imageUrl: "images/EN.png" });' alt="Food" >
+                                    <h2 class="white">$30</h2>
+                                </li>
+                                <li class="item ensalada"><img src="images/het.jpg" onclick='swal({   title: "ENSALADAS",   text: "Tropical (Piña, Fresa, Mango, Lechuga, Arándanos, Queso De Cabra).",   imageUrl: "images/EN.png" });' alt="Food" >
+                                    <h2 class="white">$35</h2>
+                                </li>
+                                <li class="item ensalada"><img src="images/hec.jpg" onclick='swal({   title: "ENSALADAS",   text: "César (Bolillo, Pechuga de Pollo Asado, Lechuga, Vinagre Balsámico).",   imageUrl: "images/EN.png" });' alt="Food" >
+                                    <h2 class="white">$30</h2>
+                                </li>
+                                <li class="item ensalada"><img src="images/hetd.jpg" onclick='swal({   title: "ENSALADAS",   text: "Tradicional (Lechuga, Jitomate, Queso Panela, Aguacate, Limón y Sal).",   imageUrl: "images/EN.png" });'  alt="Food" >
+                                    <h2 class="white">$25</h2>
+                                </li>
+                                <li class="item desayunos"><img src="images/hdh.jpg" onclick='swal({   title: "DESAYUNOS",   text: "Hot Cakes (orden de 4).",   imageUrl: "images/DS.png" });'  alt="Food" >
+                                    <h2 class="white">$22</h2>
+                                </li>
+                                <li class="item desayunos"><img src="images/hdp.jpg" onclick='swal({   title: "DESAYUNOS",   text: "Plátanos fritos.",   imageUrl: "images/DS.png" });' alt="Food" >
+                                    <h2 class="white">$20</h2>
+                                </li>
+                                 <li class="item desayunos"><img src="images/crepa.jpg" onclick='swal({   title: "DESAYUNOS",   text: "Crepas Dulces (Nutella, cajeta, Mermelada) .",   imageUrl: "images/DS.png" });' alt="Food" >
+                                    <h2 class="white">$35</h2>
+                                </li>
+                                <li class="item desayunos"><img src="images/hdo.jpg" onclick='swal({   title: "DESAYUNOS",   text: "Omelete (Salchicha o Jamón o Tocino) Relleno de Queso Mozarela",   imageUrl: "images/DS.png" });' alt="Food" >
+                                    <h2 class="white">$30</h2>
+                                </li>
+                                <li class="item desayunos"><img src="images/hdhu.jpg" onclick='swal({   title: "DESAYUNOS",   text: "Huevos al gusto (Jamón, Chorizo, Estrellados, Salchicha, Tocino). Incluye Cualquier Bebida De Su Preferencia.",   imageUrl: "images/DS.png" });' alt="Food" >
+                                    <h2 class="white">$45</h2>
+                                </li>
+
+                                  <li class="item comida"><img src="images/hcv.jpg" onclick='swal({   title: "COMIDA",   text: "Pechuga de Pollo, Bistec o Arrachera Asada, Encebollada o a La Mexicana (Acompañada de Arroz o Espagueti y Bebida de su Preferencia).",   imageUrl: "images/CM.png" });' alt="Food" >
+                                    <h2 class="white">$50</h2>
+                                </li>
+                                 <li class="item comida"><img src="images/BR.jpg" onclick='swal({   title: "COMIDA",   text: "Burritos 3 por $40.",   imageUrl: "images/CM.png" });' alt="Food" >
+                                    <h2 class="white">$40</h2>
+                                </li>
+
+                                <li class="item comida"><img src="images/hcs.jpg" onclick='swal({   title: "COMIDA",   text: "Sandwich: Jamón de Pavo $17, Arrachera $23 (Con Pan Integral $3 más).",   imageUrl: "images/CM.png" });' alt="Food" >
+                                    <h2 class="white">$17 / $23</h2>
+                                </li>
+
+                                 <li class="item comida"><img src="images/hctb.jpg" onclick='swal({   title: "COMIDA",   text: "Tortas: Bistec o Pechuga",   imageUrl: "images/CM.png" });' alt="Food" >
+                                    <h2 class="white">$37</h2>
+                                </li>
+
+                               <li class="item comida"><img src="images/hcta.jpg" onclick='swal({   title: "COMIDA",   text: "Tortas:Arrachera.",   imageUrl: "images/CM.png" });' alt="Food" >
+                                    <h2 class="white">$60</h2>
+                                </li>
+
+                                <li class="item aguas"><img src="images/haf.jpg" onclick='swal({   title: "AGUA DEL DIA",   text: "Agua del Día ( Jamaica, Arroz, Naranja, Limón, Avena) Jarra.",   imageUrl: "images/BF.png" });' alt="Food" >
+                                    <h2 class="white">$20</h2>
+                                </li>
+
+                                <li class="item aguas"><img src="images/han.jpg" onclick='swal({   title: "AGUA DEL DIA",   text: "Naranjada o Limonada (Con o Sin Agua Mineral).",   imageUrl: "images/BF.png" });' alt="Food" >
+                                    <h2 class="white">$12</h2>
+                                </li>
+                                <li class="item aguas"><img src="images/haa.jpg" onclick='swal({   title: "AGUA DEL DIA",   text: "Narazul (Curacau y Naranja).",   imageUrl: "images/BF.png" });' alt="Food" >
+                                    <h2 class="white">$20</h2>
+                                </li>
+                                 <li class="item aguas"><img src="images/had.jpg" onclick='swal({   title: "AGUA DEL DIA",   text: "Narazul (Curacau y Naranja).",   imageUrl: "images/BF.png" });' alt="Food" >
+                                    <h2 class="white">$30</h2>
+                                </li>
+                                <li class="item cafes"><img src="images/hbc.jpg" onclick='swal({   title: "BEBIDAS CALIENTES",   text: "Capuchino clásico $25 acompañado de licor $30.",   imageUrl: "images/BC.png" });' alt="Food" >
+                                    <h2 class="white">$25 / $30</h2>
+                                    </li>
+
+                                    <li class="item cafes"><img src="images/hbca.jpg" onclick='swal({   title: "BEBIDAS CALIENTES",   text: "Café Americano .",   imageUrl: "images/BC.png" });' alt="Food" >
+                                    <h2 class="white">$10</h2>
+                                    </li>
+                    
+
+                    <li class="item cafes"><img src="images/hbce.jpg" onclick='swal({   title: "BEBIDAS CALIENTES",   text: "Cafe Expresó.",   imageUrl: "images/BC.png" });' alt="Food" >
+                                    <h2 class="white">$15</h2>
+                                    </li>
+                    
+                    <li class="item cafes"><img src="images/hbcn.jpg" onclick='swal({   title: "BEBIDAS CALIENTES",   text: "Chocolate Nassau.",   imageUrl: "images/BC.png" });' alt="Food" >
+                                    <h2 class="white">$15</h2>
+                                    </li>
+                    
+                    <li class="item cafes"><img src="images/hbcc.jpg" onclick='swal({   title: "BEBIDAS CALIENTES",   text: "Chocolate Cocoa.",   imageUrl: "images/BC.png" });' alt="Food" >
+                                    <h2 class="white">$25</h2>
+                                    </li>
+                    
+                    <li class="item cafes"><img src="images/hbi.jpg" onclick='swal({   title: "BEBIDAS CALIENTES",   text: "Fusiones (Manzanilla, Hierbabuena, Limón.",   imageUrl: "images/BC.png" });' alt="Food" >
+                                    <h2 class="white">$9</h2>
+                                    </li>
+                    
+                    
+
+                            </ul><!-- @end #portfolio -->
+                        </div><!-- @end #w -->
+                    </div>
+                </div>
+            </div>  
+        </section>
+ 
+       <!-- ============ Our Bread  ============= -->
+
+
+        <section id="bread" class=" description_content">
+            <div  class="bread background_content">
+                <h1>TORTAS Y SANDWICHS: <span>RICO Y SANO</span></h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <h1>CON PAN INTEGRAL</h1>
+                    <div class="icon-bread fa-2x"></div>
+                    <p class="desc-text">Con Pan integral o Pan normal no sabemos caul es mas sano, ni cual es mas rico, depende de ti decidir. Lo que si te acosnsejamos es que la acompañes con una deliciosa Naranjada o Limonanda</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="images/bread1.jpg" width="260" alt="Bread">
+                    <img src="images/lmn.jpg" width="260" alt="Bread">
+                </div>
+            </div>
+        </section>
+
+
+        
+        <!-- ============ Featured Dish  ============= -->
+
+        <section id="featured" class="description_content">
+            <div  class="featured background_content">
+                <h1>EN UNA PALABRA: <span>EXQUISITO</span></h1>
+            </div>
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <h1>Echale un vistaso a Nuestros Platillos</h1>
+                    <div class="icon-hotdog fa-2x"></div>
+                    <p class="desc-text">Nos encanta el olor del pan recién horneado. Cada Pastel es hecho a mano en la grieta del amanecer, utilizando sólo el más simple de los ingredientes para llevar a cabo los olores y sabores que invitan a toda la cuadra. Pase por el en cualquier momento y experimente la simplicidad en su máxima expresión.</p>
+                </div>
+                <div class="col-md-6">
+                    <ul class="image_box_story2">
+                        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    <img src="images/slider1.jpg"  alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider2.jpg" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <img src="images/slider3.JPG" alt="...">
+                                    <div class="carousel-caption">
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+ 
+
+
+
+        <!-- ============ Contact Section  ============= -->
+
+        <section id="contact">
+            <div class="map">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3141.8019116897663!2d-98.48125946633854!3d20.53681909628507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d0dfebe631ac2b%3A0x67fbc9935503dae!2sHuayacocotla%2C+Ver.!5e0!3m2!1ses-419!2smx!4v1449866134388" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                     
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ============ Social Section  ============= -->
+      
+        <section class="social_connect">
+            <div class="text-content container"> 
+                <div class="col-md-6">
+                    <span class="social_heading">SIGANOS</span>
+                    <ul class="social_icons">
+                        <li><div class="fb-like"></div></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <span class="social_heading">LLAMENOS</span>
+                    <span class="social_info"><a class="color_animation" href="tel:883-335-6524"> 771-333-0594</a></span>
+                </div>
+            </div>
+        </section>
+        <!-- ============ Footer Section  ============= -->
+
+        <footer class="sub_footer">
+            <div class="container">
+                <div class="col-md-4"><p class="sub-footer-text text-center">&copy; NASSAU 2015, Hecho por: <a href="http://landercorp.xyz/">LanderCorp</a></p> </div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Volver a<a href="#top">INICIO</a></p>
+                </div>
+                <div class="col-md-4"><p class="sub-footer-text text-center">Volver a <a href="#pricing">MENU</a></p>
+                </div>
+            </div>
+        </footer>
+
+
+        <script type="text/javascript" src="js/jquery-1.10.2.min.js"> </script>
+        <script type="text/javascript" src="js/bootstrap.min.js" ></script>
+        <script type="text/javascript" src="js/jquery-1.10.2.js"></script>     
+        <script type="text/javascript" src="js/jquery.mixitup.min.js" ></script>
+        <script type="text/javascript" src="js/main.js" ></script>
+
+    </body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script type='text/javascript' data-cfasync='false'>window.purechatApi = { l: [], t: [], on: function () { this.l.push(arguments); } }; (function () { var done = false; var script = document.createElement('script'); script.async = true; script.type = 'text/javascript'; script.src = 'https://app.purechat.com/VisitorWidget/WidgetScript'; document.getElementsByTagName('HEAD').item(0).appendChild(script); script.onreadystatechange = script.onload = function (e) { if (!done && (!this.readyState || this.readyState == 'loaded' || this.readyState == 'complete')) { var w = new PCWidget({c: '417eefc0-89f2-43c8-afd0-918f38433f22', f: true }); done = true; } }; })();</script>
+</html>
